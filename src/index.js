@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ShowTicker from './ShowTicker';
+import Clock from './Clock';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ShowTicker />
+    <Clock />
   </React.StrictMode>,
   document.getElementById('root')
 );
